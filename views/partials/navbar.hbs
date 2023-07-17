@@ -1,0 +1,25 @@
+<nav>
+
+    <div class="naw-wrapper">
+
+        {{#if isIndex}}
+        <li class="activ"><a href="/">Главная</a></li>
+        {{else}}
+        <li><a href="/">Главная</a></li>
+        {{/if}}
+
+        {{#if isEnter}}
+        <li class="activ"><a href="/enter">Войти</a></li>
+        {{else}}
+        <li><a href="/enter">Войти</a></li>
+        {{/if}}
+
+        {{#if isRegistration}}
+        <li class="activ"><a href="/registration">Регистрация</a></li>
+        {{else}}
+        <li><a href="/registration">Регистрация</a></li>
+        {{/if}}
+        
+    </div>
+
+</nav>

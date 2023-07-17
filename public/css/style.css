@@ -1,0 +1,12 @@
+h2 {
+    color: red;
+}
+
+.container {
+    background-color: blue;
+}
+
+/* активные кнопки меню */
+.activ {
+    background-color: black;
+}
