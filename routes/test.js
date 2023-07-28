@@ -26,6 +26,16 @@ router.get('/registration', (req, res) => {
 
 
 
+// тут ли нам надо открывать наши КОМНАТЫ
+router.get('/allroom', (req, res) => {
+    res.render('allroom', {
+        title: 'Комнаты', //передача динамических параметров
+        isRegistration: true
+    })
+});
+
+
+
 
 
 module.exports = router
